@@ -1,0 +1,22 @@
+{
+    "name": "chenzeyu-fspet/yii2-dto",
+    "description": "yii2 dto layer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay",
+            "email": "chenzeyu@fspet.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\dto\\": "src/",
+            "yii\\dto\\tests\\": "tests/"
+        }
+    }
+}
