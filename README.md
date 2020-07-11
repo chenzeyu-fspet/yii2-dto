@@ -1,2 +1,2 @@
 # yii2-dto
-yii2 dto layer
+The dto layer for the Yii framework
