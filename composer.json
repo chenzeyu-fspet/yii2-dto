@@ -1,6 +1,6 @@
 {
-    "name": "chenzeyu-fspet/yii2-dto",
-    "description": "yii2 dto layer",
+    "name": "yiisoft/yii2-dto",
+    "description": "The dto layer for the Yii framework",
     "type": "library",
     "license": "MIT",
     "authors": [
