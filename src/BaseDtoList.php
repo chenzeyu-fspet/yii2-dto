@@ -62,7 +62,8 @@ abstract class BaseDtoList implements JsonSerializable
      */
     public function toArray()
     {
-        foreach ($this->items as &$item) {
+        $copy_items = $this->items;
+        foreach ($copy_items as &$item) {
             $class = $this->getDto();
             if ($item instanceof $class) {
                 $item = $item->toArray();
@@ -71,7 +72,7 @@ abstract class BaseDtoList implements JsonSerializable
             }
         }
 
-        return $this->items;
+        return $copy_items;
     }
 
     /**
